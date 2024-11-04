@@ -1,0 +1,23 @@
+GET http://localhost:8080/getallexpenses?userid=1
+Accept: application/json
+
+###
+POST http://localhost:8080/addexpenses
+Content-Type: application/json
+
+{
+  "expensesType": "Shopping",
+  "amount": 50,
+  "userId": 1
+
+}
+###
+POST http://localhost:8080/addexpenses
+Content-Type: application/json
+
+{
+  "expensesType": "Fuel",
+  "amount": 100,
+  "userId": 1
+
+}

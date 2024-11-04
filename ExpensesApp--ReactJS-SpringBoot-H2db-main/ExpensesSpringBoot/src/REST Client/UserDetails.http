@@ -1,0 +1,42 @@
+GET http://localhost:8080/getalluser
+Accept: application/json
+### GET request with parameter
+
+GET http://localhost:8080/verifyuser?id=1&password=123456
+Accept: application/json
+### GET request with parameter
+
+POST http://localhost:8080/createuser
+Content-Type: application/json
+
+{
+  "id": "1",
+  "firstName": "Udhayakumar",
+  "lastName": "T",
+  "email": "dev.udhayakumar",
+  "password": "123456"
+}
+### GET request with parameter
+POST http://localhost:8080/createuser
+Content-Type: application/json
+
+{
+"id": "2",
+"firstName": "Annadurai",
+"lastName": "CN",
+"email": "annadurai.cn",
+"password": "123456"
+}
+
+### GET request with parameter
+POST http://localhost:8080/createuser
+Content-Type: application/json
+
+{
+  "id": "3",
+  "firstName": "Periyar",
+  "lastName": "EVR",
+  "email": "periyar.evr",
+  "password": "123456"
+}
+

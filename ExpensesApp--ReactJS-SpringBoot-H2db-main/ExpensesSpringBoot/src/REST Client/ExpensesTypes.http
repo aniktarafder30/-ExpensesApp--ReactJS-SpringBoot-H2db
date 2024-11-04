@@ -1,0 +1,28 @@
+
+GET http://localhost:8080/getallexpensestypes
+Accept: application/json
+
+###
+
+POST http://localhost:8080/addexpensestype?typeName=Shopping
+Accept: application/json
+
+###
+
+POST http://localhost:8080/addexpensestype?typeName=Fuel
+Accept: application/json
+
+###
+
+POST http://localhost:8080/addexpensestype?typeName=MobileRecharge
+Accept: application/json
+
+###
+
+POST http://localhost:8080/addexpensestype?typeName=Electricity
+Accept: application/json
+
+###
+
+POST http://localhost:8080/addexpensestype?typeName=EMI
+Accept: application/json
