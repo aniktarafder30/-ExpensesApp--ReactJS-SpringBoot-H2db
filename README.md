@@ -29,7 +29,7 @@
 - STEP 1 : Clone the project
 
 ```bash
-  git clone https://github.com/devudhayakumar/ExpensesApp--ReactJS-SpringBoot-H2db.git
+  git clone https://github.com/aniktarafder30/-ExpensesApp--ReactJS-SpringBoot-H2db.git
 ```
 - STEP 2 : Open the spring boot folder(ExpensesSpringBoot) in intellij IDE wait till the dependencies to get installed then hit the run button.
 
